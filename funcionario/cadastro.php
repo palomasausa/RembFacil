@@ -99,11 +99,10 @@ $falhou=true;
 
           mail(
             $email, 
-            "Bem-vindo ao Reembolsa Fácil", 
-            "Clique no link abaixo e crie uma nova senha para desfrutar do nosso site 
-            e suas funcionalidades 
-            
-              http://localhost/site/definir_senha.php?token={$token}
+            " Olá seja bem-vindo ao Reembolsa Fácil", 
+            " Reembolsa Fácil
+            Clique no link abaixo e crie uma nova senha para desfrutar do nosso site e suas funcionalidades 
+          http://ec2-18-219-209-169.us-east-2.compute.amazonaws.com/site/definir_senha.php?token={$token}
             ", 
             "From: paloma.sausa.jovem.com@gmail.com"
           );
