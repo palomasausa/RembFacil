@@ -13,11 +13,10 @@
     if(usuario_logado()){
       echo "
         <a href='/site/servicos.php'>Serviços</a>
-        <a href='/site/perfil_usuario.php'>
+        <p href='/site/perfil_usuario.php'>
           <ion-icon name ='person-circle-outline'></ion-icon> {$_SESSION["nome"]} 
-        </a>
+        </p>
         <a href='/site/deslogar.php'>Sair</a>
-        <br />
         <br />
       ";  
 

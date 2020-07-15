@@ -39,7 +39,8 @@ nav {
     padding: 10px; /*espaço entre a borda e o conteúdo do elemento*/
     background-color: #ffcc00; /*cor de fundo laranja */
 }
-nav a {
+nav a,nav p {
+    display: inline-block;
     text-decoration: none;
     font-family: impact;
     color: green;
@@ -143,8 +144,8 @@ footer {
     }
     
     nav .nav-menu-btn { display: block; }
-    nav a { display: none; }
-    nav.expanded a { display: block; }
+    nav a,nav p { display: none; }
+    nav.expanded a,nav.expanded p { display: block; }
 
     #overlay img { width: 60%; }
 }
